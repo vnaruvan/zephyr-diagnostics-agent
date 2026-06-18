@@ -117,9 +117,4 @@ The core health logic is separated from Zephyr-specific runtime code.
 
 This separation allows the core health logic to be tested using a plain C test without requiring Zephyr runtime execution.
 
-## Current Scope
-
-This is an app-level Zephyr ramp-up project.
-
-It does not perform hardware bring-up, flashing, peripheral validation, or custom driver development. The current focus is Zephyr application structure, modular C, timers, workqueues, logging, shell commands, testing, and build automation.
 
