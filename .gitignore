@@ -3,3 +3,6 @@ build/
 .cache/
 .vscode/
 .DS_Store
+
+# Plain C test binary
+tests/plain/test_health
