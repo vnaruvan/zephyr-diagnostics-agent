@@ -2,7 +2,7 @@
 
 A small Zephyr RTOS diagnostics-style application built for `native_sim`.
 
-This project was created as a hands-on ramp-up exercise for Zephyr application development, modular C design, build/debug workflow, runtime diagnostics, logging, timers, workqueues, shell commands, plain C testing, and Bash automation.
+This project was created as a hands-on learning exercise for Zephyr application development, modular C design, build/debug workflow, runtime diagnostics, logging, timers, workqueues, shell commands, plain C testing, and Bash automation.
 
 ## What This Demonstrates
 
