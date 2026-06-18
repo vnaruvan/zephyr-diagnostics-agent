@@ -12,6 +12,7 @@ enum health_status {
 struct health_state {
     int sensor_value;
     int threshold;
+    uint32_t update_count;
     uint32_t error_count;
     enum health_status status;
 };
@@ -19,5 +20,7 @@ struct health_state {
 void health_init(struct health_state *state, int threshold);
 void health_update(struct health_state *state, int sensor_value);
 void health_reset(struct health_state *state);
+void health_force_error(struct health_state *state);
+void health_set_threshold(struct health_state *state, int threshold);
 
 #endif

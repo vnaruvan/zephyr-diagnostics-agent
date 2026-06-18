@@ -8,4 +8,6 @@ project(zephyr_diagnostics_agent)
 target_sources(app PRIVATE
     src/main.c
     src/health.c
+    src/diagnostics.c
+    src/shell_cmds.c
 )
